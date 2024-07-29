@@ -7,8 +7,8 @@ import org.apache.easyexcel.poi.ss.usermodel.VerticalAlignment;
  * This enumeration value indicates the type of vertical alignment for a cell, i.e.,
  * whether it is aligned top, bottom, vertically centered, justified or distributed.
  *
- * <!-- FIXME: Identical to {@link org.apache.poi.ss.usermodel.VerticalAlignment}. Should merge these to
- * {@link org.apache.poi.common.usermodel}.VerticalAlignment in the future. -->
+ * <!-- FIXME: Identical to {@link org.apache.easyexcel.poi.ss.usermodel.VerticalAlignment}. Should merge these to
+ * {@link org.apache.easyexcel.poi.common.usermodel}.VerticalAlignment in the future. -->
  *
  * @author Jiaju Zhuang
  */

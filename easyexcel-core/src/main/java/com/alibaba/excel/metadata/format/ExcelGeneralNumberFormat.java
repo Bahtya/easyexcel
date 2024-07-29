@@ -13,7 +13,7 @@ import java.util.Locale;
 import org.apache.easyexcel.poi.ss.usermodel.DataFormatter;
 
 /**
- * Written with reference to {@link org.apache.poi.ss.usermodel.ExcelGeneralNumberFormat }.
+ * Written with reference to {@link org.apache.easyexcel.poi.ss.usermodel.ExcelGeneralNumberFormat }.
  * <p>
  * Supported Do not use scientific notation.
  *
@@ -38,9 +38,9 @@ public class ExcelGeneralNumberFormat extends Format {
         } else {
             scientificFormat = new DecimalFormat("#", decimalSymbols);
         }
-        org.apache.poi.ss.usermodel.DataFormatter.setExcelStyleRoundingMode(scientificFormat);
+        org.apache.easyexcel.poi.ss.usermodel.DataFormatter.setExcelStyleRoundingMode(scientificFormat);
         integerFormat = new DecimalFormat("#", decimalSymbols);
-        org.apache.poi.ss.usermodel.DataFormatter.setExcelStyleRoundingMode(integerFormat);
+        org.apache.easyexcel.poi.ss.usermodel.DataFormatter.setExcelStyleRoundingMode(integerFormat);
         decimalFormat = new DecimalFormat("#.##########", decimalSymbols);
         DataFormatter.setExcelStyleRoundingMode(decimalFormat);
     }

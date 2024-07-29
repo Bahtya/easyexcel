@@ -103,7 +103,7 @@ public class WriteLargeTest {
         // 使用输入的文件创建一个新的文件输入流
         //FileInputStream fin = new FileInputStream("/Users/zhuangjiaju/Downloads/1e9e0578a9634abbbbd9b67f338f142a
         // .xls");
-        // 创建一个新的org.apache.poi.poifs.filesystem.Filesystem
+        // 创建一个新的org.apache.easyexcel.poi.poifs.filesystem.Filesystem
         POIFSFileSystem poifs = new POIFSFileSystem(
             new File("/Users/zhuangjiaju/Downloads/1e9e0578a9634abbbbd9b67f338f142a.xls"));
         // 在InputStream中获取Workbook流

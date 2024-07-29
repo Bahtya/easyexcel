@@ -27,31 +27,31 @@ public class HyperlinkData extends CoordinateData {
         /**
          * Not a hyperlink
          */
-        NONE(org.apache.poi.common.usermodel.HyperlinkType.NONE),
+        NONE(org.apache.easyexcel.poi.common.usermodel.HyperlinkType.NONE),
 
         /**
          * Link to an existing file or web page
          */
-        URL(org.apache.poi.common.usermodel.HyperlinkType.URL),
+        URL(org.apache.easyexcel.poi.common.usermodel.HyperlinkType.URL),
 
         /**
          * Link to a place in this document
          */
-        DOCUMENT(org.apache.poi.common.usermodel.HyperlinkType.DOCUMENT),
+        DOCUMENT(org.apache.easyexcel.poi.common.usermodel.HyperlinkType.DOCUMENT),
 
         /**
          * Link to an E-mail address
          */
-        EMAIL(org.apache.poi.common.usermodel.HyperlinkType.EMAIL),
+        EMAIL(org.apache.easyexcel.poi.common.usermodel.HyperlinkType.EMAIL),
 
         /**
          * Link to a file
          */
-        FILE(org.apache.poi.common.usermodel.HyperlinkType.FILE);
+        FILE(org.apache.easyexcel.poi.common.usermodel.HyperlinkType.FILE);
 
-        org.apache.poi.common.usermodel.HyperlinkType value;
+        org.apache.easyexcel.poi.common.usermodel.HyperlinkType value;
 
-        HyperlinkType(org.apache.poi.common.usermodel.HyperlinkType value) {
+        HyperlinkType(org.apache.easyexcel.poi.common.usermodel.HyperlinkType value) {
             this.value = value;
         }
     }

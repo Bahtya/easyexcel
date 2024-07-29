@@ -45,7 +45,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Written with reference to {@link org.apache.poi.ss.usermodel.DataFormatter}.Made some optimizations for date
+ * Written with reference to {@link org.apache.easyexcel.poi.ss.usermodel.DataFormatter}.Made some optimizations for date
  * conversion.
  * <p>
  * This is a non-thread-safe class.
@@ -849,7 +849,7 @@ public class DataFormatter {
     }
 
     /**
-     * Workaround until we merge {@link org.apache.poi.ss.usermodel.DataFormatter} with {@link CellFormat}. Constant,
+     * Workaround until we merge {@link org.apache.easyexcel.poi.ss.usermodel.DataFormatter} with {@link CellFormat}. Constant,
      * non-cachable wrapper around a
      * {@link CellFormatResult}
      */

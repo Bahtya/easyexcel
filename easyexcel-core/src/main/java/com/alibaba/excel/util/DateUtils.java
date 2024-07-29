@@ -301,10 +301,10 @@ public class DateUtils {
      * @return Java representation of the date, or null if date is not a valid Excel date
      */
     public static Date getJavaDate(double date, boolean use1904windowing) {
-        //To calculate the Date, in the use of `org.apache.poi.ss.usermodel.DateUtil.getJavaDate(double, boolean,
+        //To calculate the Date, in the use of `org.apache.easyexcel.poi.ss.usermodel.DateUtil.getJavaDate(double, boolean,
         // java.util.TimeZone, boolean), Date when similar `2023-01-01 00:00:00.500`, returns the`2023-01-01
         // 00:00:01`, but excel in fact shows the `2023-01-01 00:00:00`.
-        // `org.apache.poi.ss.usermodel.DateUtil.getLocalDateTime(double, boolean, boolean)` There is no problem.
+        // `org.apache.easyexcel.poi.ss.usermodel.DateUtil.getLocalDateTime(double, boolean, boolean)` There is no problem.
         return Date.from(getLocalDateTime(date, use1904windowing).atZone(ZoneId.systemDefault()).toInstant());
     }
 

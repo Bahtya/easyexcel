@@ -146,7 +146,7 @@ public class SharedStringsTableHandler extends DefaultHandler {
      * so it shall be escaped as <code>_x000D_</code>.
      * </p>
      * See section 3.18.9 in the OOXML spec.
-     * @see org.apache.poi.xssf.usermodel.XSSFRichTextString#utfDecode(String)
+     * @see org.apache.easyexcel.poi.xssf.usermodel.XSSFRichTextString#utfDecode(String)
      */
     static String utfDecode(String value) {
         if (value == null || !value.contains("_x")) {

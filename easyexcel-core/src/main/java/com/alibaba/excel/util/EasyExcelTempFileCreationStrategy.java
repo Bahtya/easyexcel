@@ -29,7 +29,7 @@ import java.util.concurrent.locks.ReentrantLock;
 import org.apache.easyexcel.poi.util.DefaultTempFileCreationStrategy;
 import org.apache.easyexcel.poi.util.TempFileCreationStrategy;
 
-import static org.apache.poi.util.TempFile.JAVA_IO_TMPDIR;
+import static org.apache.easyexcel.poi.util.TempFile.JAVA_IO_TMPDIR;
 
 /**
  * In the scenario where `poifiles` are cleaned up, the {@link DefaultTempFileCreationStrategy} will throw a
