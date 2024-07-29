@@ -64,5 +64,4 @@ jobs:
         with:
           name: build-artifacts
           path: |
-            target/*.jar
-            target/site
+            /home/runner/work/easyexcel/easyexcel/easyexcel/target/*.jar
