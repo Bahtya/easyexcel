@@ -8,7 +8,7 @@
     <version>${revision}</version>
     <name>easyexcel-parent</name>
     <description>easyexcel is a excel handle tools written in Java</description>
-    <url>https://github.com/alibaba/easyexcel</url>
+    <url>https://github.com/Bahtya/easyexcel</url>
     <inceptionYear>2018</inceptionYear>
 
     <modules>
@@ -354,6 +354,24 @@
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
+
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <version>3.1.2</version>
+            <executions>
+                <execution>
+                    <id>copy-dependencies</id>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>copy-dependencies</goal>
+                    </goals>
+                    <configuration>
+                        <outputDirectory>${project.build.directory}</outputDirectory>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
         </plugins>
     </build>
 </project>
