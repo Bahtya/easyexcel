@@ -55,3 +55,10 @@ jobs:
         run: ./mvnw install -B -V
       - name: Java Doc
         run: ./mvnw javadoc:javadoc
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-artifacts
+          path: |
+            target/*.jar
+            target/site
