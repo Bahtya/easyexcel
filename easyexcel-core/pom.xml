@@ -44,6 +44,11 @@
     <version>1.9.2</version>
 </dependency>
 
+<dependency>
+    <groupId>org.apache.xmlbeans</groupId>
+    <artifactId>xmlbeans</artifactId>
+    <version>3.1.0</version>
+</dependency>
 
 
     </dependencies>
