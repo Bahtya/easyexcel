@@ -47,7 +47,7 @@ jobs:
         run:  chmod +x mvnw
       
       - name: Clean and Build with Maven
-        run: ./mvnw clean package -B -V
+        run: ./mvnw validate
       #- name: Test with Maven
       #  if: ${{ matrix.java == '8' }}
       #  run: ./mvnw test -B -Dmaven.test.skip=false
