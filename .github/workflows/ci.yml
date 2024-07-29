@@ -54,7 +54,7 @@ jobs:
       - name: Maven Package
         run: ./mvnw package -B -V
       - name: List target directory
-        run: ls -la 
+        run: ls -la /home/runner/work/easyexcel/easyexcel/easyexcel/target
       - name: Maven Build
         run: ./mvnw install -B -V
       - name: Java Doc
@@ -65,3 +65,4 @@ jobs:
           name: build-artifacts
           path: |
             /home/runner/work/easyexcel/easyexcel/easyexcel/target/*.jar
+            /home/runner/work/easyexcel/easyexcel/easyexcel-core/target/*.jar
