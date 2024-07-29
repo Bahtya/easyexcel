@@ -1,8 +1,8 @@
 package com.alibaba.excel.analysis.v03.handlers;
 
-import org.apache.poi.hssf.record.MergeCellsRecord;
-import org.apache.poi.hssf.record.Record;
-import org.apache.poi.ss.util.CellRangeAddress;
+import org.apache.easyexcel.poi.hssf.record.MergeCellsRecord;
+import org.apache.easyexcel.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.ss.util.CellRangeAddress;
 
 import com.alibaba.excel.analysis.v03.IgnorableXlsRecordHandler;
 import com.alibaba.excel.context.xls.XlsReadContext;

@@ -1,7 +1,7 @@
 package com.alibaba.excel.enums.poi;
 
 import lombok.Getter;
-import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.easyexcel.poi.ss.usermodel.FillPatternType;
 
 /**
  * The enumeration value indicating the style of fill pattern being used for a cell format.

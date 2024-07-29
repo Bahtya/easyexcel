@@ -10,9 +10,9 @@ import com.alibaba.excel.metadata.data.ReadCellData;
 import com.alibaba.excel.read.metadata.holder.ReadRowHolder;
 import com.alibaba.excel.read.metadata.holder.xls.XlsReadSheetHolder;
 
-import org.apache.poi.hssf.eventusermodel.dummyrecord.LastCellOfRowDummyRecord;
-import org.apache.poi.hssf.eventusermodel.dummyrecord.MissingCellDummyRecord;
-import org.apache.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.hssf.eventusermodel.dummyrecord.LastCellOfRowDummyRecord;
+import org.apache.easyexcel.poi.hssf.eventusermodel.dummyrecord.MissingCellDummyRecord;
+import org.apache.easyexcel.poi.hssf.record.Record;
 
 /**
  * Record handler

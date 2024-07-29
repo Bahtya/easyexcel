@@ -4,8 +4,8 @@ import com.alibaba.excel.analysis.v03.IgnorableXlsRecordHandler;
 import com.alibaba.excel.context.xls.XlsReadContext;
 import com.alibaba.excel.metadata.data.ReadCellData;
 
-import org.apache.poi.hssf.record.RKRecord;
-import org.apache.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.hssf.record.RKRecord;
+import org.apache.easyexcel.poi.hssf.record.Record;
 
 /**
  * Record handler

@@ -10,10 +10,10 @@ import java.util.regex.Pattern;
 
 import com.alibaba.fastjson2.JSON;
 
-import org.apache.poi.xssf.streaming.SXSSFCell;
-import org.apache.poi.xssf.streaming.SXSSFRow;
-import org.apache.poi.xssf.streaming.SXSSFSheet;
-import org.apache.poi.xssf.streaming.SXSSFWorkbook;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFCell;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFRow;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFSheet;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFWorkbook;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

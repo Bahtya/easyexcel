@@ -12,7 +12,7 @@ import java.util.UUID;
 import com.alibaba.excel.exception.ExcelAnalysisException;
 import com.alibaba.excel.exception.ExcelCommonException;
 
-import org.apache.poi.util.TempFile;
+import org.apache.easyexcel.poi.util.TempFile;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one or more

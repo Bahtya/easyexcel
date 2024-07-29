@@ -1,7 +1,7 @@
 package com.alibaba.excel.enums.poi;
 
 import lombok.Getter;
-import org.apache.poi.ss.usermodel.HorizontalAlignment;
+import org.apache.easyexcel.poi.ss.usermodel.HorizontalAlignment;
 
 /**
  * The enumeration value indicating horizontal alignment of a cell,

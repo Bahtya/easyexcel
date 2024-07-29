@@ -10,8 +10,8 @@ import com.alibaba.excel.enums.RowTypeEnum;
 import com.alibaba.excel.metadata.data.DataFormatData;
 import com.alibaba.excel.metadata.data.ReadCellData;
 
-import org.apache.poi.hssf.record.NumberRecord;
-import org.apache.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.hssf.record.NumberRecord;
+import org.apache.easyexcel.poi.hssf.record.Record;
 
 /**
  * Record handler

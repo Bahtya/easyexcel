@@ -4,7 +4,7 @@ import com.alibaba.excel.write.handler.context.RowWriteHandlerContext;
 import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;
 import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 
-import org.apache.poi.ss.usermodel.Row;
+import org.apache.easyexcel.poi.ss.usermodel.Row;
 
 /**
  * intercepts handle row creation

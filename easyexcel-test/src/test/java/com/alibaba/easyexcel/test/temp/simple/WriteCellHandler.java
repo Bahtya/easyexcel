@@ -7,11 +7,11 @@ import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;
 import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.CreationHelper;
-import org.apache.poi.ss.usermodel.DataFormat;
-import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.CellStyle;
+import org.apache.easyexcel.poi.ss.usermodel.CreationHelper;
+import org.apache.easyexcel.poi.ss.usermodel.DataFormat;
+import org.apache.easyexcel.poi.ss.usermodel.IndexedColors;
 
 /**
  * @author Jiaju Zhuang

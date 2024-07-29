@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 import org.apache.commons.csv.CSVRecord;
-import org.apache.poi.poifs.filesystem.FileMagic;
+import org.apache.easyexcel.poi.poifs.filesystem.FileMagic;
 import org.junit.jupiter.api.Test;
 
 @Slf4j

@@ -9,8 +9,8 @@ import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;
 import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 
 import org.apache.commons.collections4.CollectionUtils;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.Row;
 
 /**
  * intercepts handle cell creation

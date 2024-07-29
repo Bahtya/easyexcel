@@ -3,7 +3,7 @@ package com.alibaba.excel.write.style.row;
 import com.alibaba.excel.write.handler.RowWriteHandler;
 import com.alibaba.excel.write.handler.context.RowWriteHandlerContext;
 
-import org.apache.poi.ss.usermodel.Row;
+import org.apache.easyexcel.poi.ss.usermodel.Row;
 
 /**
  * Set the row height strategy

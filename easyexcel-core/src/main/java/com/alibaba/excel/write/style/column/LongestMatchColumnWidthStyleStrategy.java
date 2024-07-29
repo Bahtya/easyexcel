@@ -11,7 +11,7 @@ import com.alibaba.excel.util.MapUtils;
 import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;
 
 import org.apache.commons.collections4.CollectionUtils;
-import org.apache.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
 
 /**
  * Take the width of the longest column as the width.

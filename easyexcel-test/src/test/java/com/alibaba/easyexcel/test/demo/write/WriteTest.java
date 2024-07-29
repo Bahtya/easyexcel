@@ -42,12 +42,12 @@ import com.alibaba.excel.write.metadata.style.WriteFont;
 import com.alibaba.excel.write.style.HorizontalCellStyleStrategy;
 import com.alibaba.excel.write.style.column.LongestMatchColumnWidthStyleStrategy;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.FillPatternType;
-import org.apache.poi.ss.usermodel.IndexedColors;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.streaming.SXSSFSheet;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.CellStyle;
+import org.apache.easyexcel.poi.ss.usermodel.FillPatternType;
+import org.apache.easyexcel.poi.ss.usermodel.IndexedColors;
+import org.apache.easyexcel.poi.ss.usermodel.Workbook;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFSheet;
 import org.junit.jupiter.api.Test;
 
 /**

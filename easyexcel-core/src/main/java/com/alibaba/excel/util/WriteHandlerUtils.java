@@ -14,7 +14,7 @@ import com.alibaba.excel.write.handler.context.WorkbookWriteHandlerContext;
 import com.alibaba.excel.write.metadata.holder.AbstractWriteHolder;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.ss.usermodel.Row;
+import org.apache.easyexcel.poi.ss.usermodel.Row;
 
 /**
  * Write handler utils

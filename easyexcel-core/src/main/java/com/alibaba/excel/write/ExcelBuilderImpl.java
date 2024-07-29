@@ -15,7 +15,7 @@ import com.alibaba.excel.write.metadata.WriteTable;
 import com.alibaba.excel.write.metadata.WriteWorkbook;
 import com.alibaba.excel.write.metadata.fill.FillConfig;
 
-import org.apache.poi.ss.util.CellRangeAddress;
+import org.apache.easyexcel.poi.ss.util.CellRangeAddress;
 
 /**
  * @author jipengfei

@@ -10,7 +10,7 @@ import com.alibaba.excel.read.metadata.holder.ReadWorkbookHolder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;
+import org.apache.easyexcel.poi.openxml4j.opc.PackageRelationshipCollection;
 
 /**
  * sheet holder

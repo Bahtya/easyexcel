@@ -1,6 +1,6 @@
 package com.alibaba.excel.write.merge;
 
-import org.apache.poi.ss.util.CellRangeAddress;
+import org.apache.easyexcel.poi.ss.util.CellRangeAddress;
 
 import com.alibaba.excel.metadata.property.OnceAbsoluteMergeProperty;
 import com.alibaba.excel.write.handler.SheetWriteHandler;

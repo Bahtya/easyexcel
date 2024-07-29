@@ -5,8 +5,8 @@ import com.alibaba.excel.context.xls.XlsReadContext;
 import com.alibaba.excel.enums.RowTypeEnum;
 import com.alibaba.excel.metadata.data.ReadCellData;
 
-import org.apache.poi.hssf.record.LabelRecord;
-import org.apache.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.hssf.record.LabelRecord;
+import org.apache.easyexcel.poi.hssf.record.Record;
 
 /**
  * Record handler

@@ -4,8 +4,8 @@ import com.alibaba.excel.metadata.Head;
 import com.alibaba.excel.write.handler.CellWriteHandler;
 import com.alibaba.excel.write.handler.context.CellWriteHandlerContext;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.Sheet;
 
 /**
  * Merge strategy

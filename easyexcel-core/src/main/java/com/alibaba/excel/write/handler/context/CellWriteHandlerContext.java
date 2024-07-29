@@ -15,8 +15,8 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.Row;
 
 /**
  * cell context

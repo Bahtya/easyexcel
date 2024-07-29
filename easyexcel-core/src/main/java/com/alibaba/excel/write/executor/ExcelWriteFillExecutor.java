@@ -40,11 +40,11 @@ import org.apache.commons.collections4.CollectionUtils;
 
 import com.alibaba.excel.util.PoiUtils;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.CellStyle;
+import org.apache.easyexcel.poi.ss.usermodel.CellType;
+import org.apache.easyexcel.poi.ss.usermodel.Row;
+import org.apache.easyexcel.poi.ss.usermodel.Sheet;
 
 /**
  * Fill the data into excel

@@ -8,13 +8,13 @@ import com.alibaba.excel.write.metadata.style.WriteFont;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.poi.ss.usermodel.BorderStyle;
-import org.apache.poi.ss.usermodel.BuiltinFormats;
-import org.apache.poi.ss.usermodel.FillPatternType;
-import org.apache.poi.ss.usermodel.HorizontalAlignment;
-import org.apache.poi.ss.usermodel.IgnoredErrorType;
-import org.apache.poi.ss.usermodel.IndexedColors;
-import org.apache.poi.ss.usermodel.VerticalAlignment;
+import org.apache.easyexcel.poi.ss.usermodel.BorderStyle;
+import org.apache.easyexcel.poi.ss.usermodel.BuiltinFormats;
+import org.apache.easyexcel.poi.ss.usermodel.FillPatternType;
+import org.apache.easyexcel.poi.ss.usermodel.HorizontalAlignment;
+import org.apache.easyexcel.poi.ss.usermodel.IgnoredErrorType;
+import org.apache.easyexcel.poi.ss.usermodel.IndexedColors;
+import org.apache.easyexcel.poi.ss.usermodel.VerticalAlignment;
 
 /**
  * Configuration from annotations

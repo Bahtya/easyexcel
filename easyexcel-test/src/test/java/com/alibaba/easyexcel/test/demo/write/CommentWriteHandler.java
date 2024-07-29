@@ -5,11 +5,11 @@ import com.alibaba.excel.write.handler.RowWriteHandler;
 import com.alibaba.excel.write.handler.context.RowWriteHandlerContext;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.ss.usermodel.Comment;
-import org.apache.poi.ss.usermodel.Drawing;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.xssf.usermodel.XSSFClientAnchor;
-import org.apache.poi.xssf.usermodel.XSSFRichTextString;
+import org.apache.easyexcel.poi.ss.usermodel.Comment;
+import org.apache.easyexcel.poi.ss.usermodel.Drawing;
+import org.apache.easyexcel.poi.ss.usermodel.Sheet;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFClientAnchor;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFRichTextString;
 
 /**
  * 自定义拦截器.新增注释,第一行头加批注

@@ -4,15 +4,15 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.poi.hssf.eventusermodel.EventWorkbookBuilder;
-import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;
-import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;
-import org.apache.poi.hssf.eventusermodel.HSSFListener;
-import org.apache.poi.hssf.eventusermodel.HSSFRequest;
-import org.apache.poi.hssf.eventusermodel.MissingRecordAwareHSSFListener;
-import org.apache.poi.hssf.record.BOFRecord;
-import org.apache.poi.hssf.record.BoundSheetRecord;
-import org.apache.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.hssf.eventusermodel.EventWorkbookBuilder;
+import org.apache.easyexcel.poi.hssf.eventusermodel.FormatTrackingHSSFListener;
+import org.apache.easyexcel.poi.hssf.eventusermodel.HSSFEventFactory;
+import org.apache.easyexcel.poi.hssf.eventusermodel.HSSFListener;
+import org.apache.easyexcel.poi.hssf.eventusermodel.HSSFRequest;
+import org.apache.easyexcel.poi.hssf.eventusermodel.MissingRecordAwareHSSFListener;
+import org.apache.easyexcel.poi.hssf.record.BOFRecord;
+import org.apache.easyexcel.poi.hssf.record.BoundSheetRecord;
+import org.apache.easyexcel.poi.hssf.record.Record;
 
 import com.alibaba.excel.analysis.v03.handlers.BofRecordHandler;
 import com.alibaba.excel.analysis.v03.handlers.BoundSheetRecordHandler;

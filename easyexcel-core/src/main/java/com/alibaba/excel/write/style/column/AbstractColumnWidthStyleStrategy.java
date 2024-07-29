@@ -8,7 +8,7 @@ import com.alibaba.excel.write.handler.CellWriteHandler;
 import com.alibaba.excel.write.handler.context.CellWriteHandlerContext;
 import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;
 
-import org.apache.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
 
 /**
  * Column width style strategy

@@ -1,6 +1,6 @@
 package com.alibaba.excel.metadata;
 
-import org.apache.poi.ss.util.CellReference;
+import org.apache.easyexcel.poi.ss.util.CellReference;
 
 import com.alibaba.excel.constant.ExcelXmlConstants;
 import com.alibaba.excel.enums.CellExtraTypeEnum;

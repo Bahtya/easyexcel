@@ -10,13 +10,13 @@ import com.alibaba.easyexcel.test.core.simple.SimpleData;
 import com.alibaba.easyexcel.test.util.TestFileUtil;
 import com.alibaba.excel.EasyExcel;
 
-import org.apache.poi.poifs.crypt.EncryptionInfo;
-import org.apache.poi.poifs.crypt.EncryptionMode;
-import org.apache.poi.poifs.crypt.Encryptor;
-import org.apache.poi.poifs.filesystem.POIFSFileSystem;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.xssf.streaming.SXSSFWorkbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.easyexcel.poi.poifs.crypt.EncryptionInfo;
+import org.apache.easyexcel.poi.poifs.crypt.EncryptionMode;
+import org.apache.easyexcel.poi.poifs.crypt.Encryptor;
+import org.apache.easyexcel.poi.poifs.filesystem.POIFSFileSystem;
+import org.apache.easyexcel.poi.ss.usermodel.Sheet;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFWorkbook;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.jupiter.api.Test;
 
 /**

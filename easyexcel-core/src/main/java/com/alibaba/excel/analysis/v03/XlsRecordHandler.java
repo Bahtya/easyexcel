@@ -1,6 +1,6 @@
 package com.alibaba.excel.analysis.v03;
 
-import org.apache.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.hssf.record.Record;
 
 import com.alibaba.excel.context.xls.XlsReadContext;
 

@@ -2,8 +2,8 @@ package com.alibaba.excel.analysis.v07.handlers;
 
 import java.util.Optional;
 
-import org.apache.poi.openxml4j.opc.PackageRelationship;
-import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;
+import org.apache.easyexcel.poi.openxml4j.opc.PackageRelationship;
+import org.apache.easyexcel.poi.openxml4j.opc.PackageRelationshipCollection;
 import org.xml.sax.Attributes;
 
 import com.alibaba.excel.constant.ExcelXmlConstants;

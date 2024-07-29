@@ -8,10 +8,10 @@ import java.lang.annotation.Target;
 
 import com.alibaba.excel.enums.BooleanEnum;
 
-import org.apache.poi.common.usermodel.fonts.FontCharset;
-import org.apache.poi.hssf.usermodel.HSSFPalette;
-import org.apache.poi.ss.usermodel.Font;
-import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.easyexcel.poi.common.usermodel.fonts.FontCharset;
+import org.apache.easyexcel.poi.hssf.usermodel.HSSFPalette;
+import org.apache.easyexcel.poi.ss.usermodel.Font;
+import org.apache.easyexcel.poi.ss.usermodel.IndexedColors;
 
 /**
  * Custom content styles.

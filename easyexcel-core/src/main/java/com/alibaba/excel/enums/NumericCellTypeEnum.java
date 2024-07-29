@@ -1,6 +1,6 @@
 package com.alibaba.excel.enums;
 
-import org.apache.poi.ss.usermodel.CellType;
+import org.apache.easyexcel.poi.ss.usermodel.CellType;
 
 /**
  * Used to supplement {@link CellType}.

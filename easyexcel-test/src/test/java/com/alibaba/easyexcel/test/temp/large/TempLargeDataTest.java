@@ -13,11 +13,11 @@ import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.ExcelWriter;
 import com.alibaba.excel.write.metadata.WriteSheet;
 
-import org.apache.poi.openxml4j.util.ZipSecureFile;
-import org.apache.poi.xssf.streaming.SXSSFCell;
-import org.apache.poi.xssf.streaming.SXSSFRow;
-import org.apache.poi.xssf.streaming.SXSSFSheet;
-import org.apache.poi.xssf.streaming.SXSSFWorkbook;
+import org.apache.easyexcel.poi.openxml4j.util.ZipSecureFile;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFCell;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFRow;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFSheet;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFWorkbook;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

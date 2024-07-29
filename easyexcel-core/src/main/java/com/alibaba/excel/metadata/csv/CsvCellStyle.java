@@ -5,13 +5,13 @@ import com.alibaba.excel.metadata.data.DataFormatData;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.poi.ss.usermodel.BorderStyle;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.Color;
-import org.apache.poi.ss.usermodel.FillPatternType;
-import org.apache.poi.ss.usermodel.Font;
-import org.apache.poi.ss.usermodel.HorizontalAlignment;
-import org.apache.poi.ss.usermodel.VerticalAlignment;
+import org.apache.easyexcel.poi.ss.usermodel.BorderStyle;
+import org.apache.easyexcel.poi.ss.usermodel.CellStyle;
+import org.apache.easyexcel.poi.ss.usermodel.Color;
+import org.apache.easyexcel.poi.ss.usermodel.FillPatternType;
+import org.apache.easyexcel.poi.ss.usermodel.Font;
+import org.apache.easyexcel.poi.ss.usermodel.HorizontalAlignment;
+import org.apache.easyexcel.poi.ss.usermodel.VerticalAlignment;
 
 /**
  * csv cell style

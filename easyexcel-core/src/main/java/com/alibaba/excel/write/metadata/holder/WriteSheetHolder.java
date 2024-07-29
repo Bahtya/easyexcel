@@ -12,10 +12,10 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.xssf.streaming.SXSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.easyexcel.poi.hssf.usermodel.HSSFSheet;
+import org.apache.easyexcel.poi.ss.usermodel.Sheet;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFSheet;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFSheet;
 
 /**
  * sheet holder

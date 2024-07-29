@@ -1,10 +1,10 @@
 package com.alibaba.easyexcel.test.core;
 
-import org.apache.poi.hssf.usermodel.HSSFCell;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.easyexcel.poi.hssf.usermodel.HSSFCell;
+import org.apache.easyexcel.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.Workbook;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFCell;
 
 public class StyleTestUtils {
 

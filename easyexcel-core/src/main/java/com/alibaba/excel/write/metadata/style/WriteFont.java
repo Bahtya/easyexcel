@@ -5,10 +5,10 @@ import com.alibaba.excel.util.StringUtils;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.poi.common.usermodel.fonts.FontCharset;
-import org.apache.poi.hssf.usermodel.HSSFPalette;
-import org.apache.poi.ss.usermodel.Font;
-import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.easyexcel.poi.common.usermodel.fonts.FontCharset;
+import org.apache.easyexcel.poi.hssf.usermodel.HSSFPalette;
+import org.apache.easyexcel.poi.ss.usermodel.Font;
+import org.apache.easyexcel.poi.ss.usermodel.IndexedColors;
 
 /**
  * Font when writing

@@ -14,16 +14,16 @@ import com.alibaba.excel.util.FileUtils;
 import com.alibaba.excel.util.ListUtils;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.ss.usermodel.ClientAnchor;
-import org.apache.poi.ss.usermodel.CreationHelper;
-import org.apache.poi.ss.usermodel.Picture;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.streaming.SXSSFCell;
-import org.apache.poi.xssf.streaming.SXSSFDrawing;
-import org.apache.poi.xssf.streaming.SXSSFRow;
-import org.apache.poi.xssf.streaming.SXSSFSheet;
-import org.apache.poi.xssf.streaming.SXSSFWorkbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.easyexcel.poi.ss.usermodel.ClientAnchor;
+import org.apache.easyexcel.poi.ss.usermodel.CreationHelper;
+import org.apache.easyexcel.poi.ss.usermodel.Picture;
+import org.apache.easyexcel.poi.ss.usermodel.Workbook;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFCell;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFDrawing;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFRow;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFSheet;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFWorkbook;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.jupiter.api.Test;
 
 @Slf4j

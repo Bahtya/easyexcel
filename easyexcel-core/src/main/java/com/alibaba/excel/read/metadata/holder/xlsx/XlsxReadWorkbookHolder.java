@@ -14,10 +14,10 @@ import com.alibaba.excel.util.MapUtils;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.poi.openxml4j.opc.OPCPackage;
-import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;
-import org.apache.poi.xssf.model.StylesTable;
-import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+import org.apache.easyexcel.poi.openxml4j.opc.OPCPackage;
+import org.apache.easyexcel.poi.openxml4j.opc.PackageRelationshipCollection;
+import org.apache.easyexcel.poi.xssf.model.StylesTable;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFCellStyle;
 
 /**
  * Workbook holder

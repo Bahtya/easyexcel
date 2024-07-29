@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.poi.openxml4j.opc.PackagePart;
+import org.apache.easyexcel.poi.openxml4j.opc.PackagePart;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

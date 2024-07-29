@@ -1,7 +1,7 @@
 package com.alibaba.excel.analysis.v03.handlers;
 
-import org.apache.poi.hssf.record.Record;
-import org.apache.poi.hssf.record.StringRecord;
+import org.apache.easyexcel.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.hssf.record.StringRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

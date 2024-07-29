@@ -7,10 +7,10 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;
-import org.apache.poi.hssf.record.BoundSheetRecord;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.poifs.filesystem.POIFSFileSystem;
+import org.apache.easyexcel.poi.hssf.eventusermodel.FormatTrackingHSSFListener;
+import org.apache.easyexcel.poi.hssf.record.BoundSheetRecord;
+import org.apache.easyexcel.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.easyexcel.poi.poifs.filesystem.POIFSFileSystem;
 
 import com.alibaba.excel.read.metadata.ReadWorkbook;
 import com.alibaba.excel.read.metadata.holder.ReadWorkbookHolder;

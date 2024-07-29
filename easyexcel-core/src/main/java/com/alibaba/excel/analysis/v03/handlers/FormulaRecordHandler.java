@@ -15,10 +15,10 @@ import com.alibaba.excel.metadata.data.FormulaData;
 import com.alibaba.excel.metadata.data.ReadCellData;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.hssf.model.HSSFFormulaParser;
-import org.apache.poi.hssf.record.FormulaRecord;
-import org.apache.poi.hssf.record.Record;
-import org.apache.poi.ss.usermodel.CellType;
+import org.apache.easyexcel.poi.hssf.model.HSSFFormulaParser;
+import org.apache.easyexcel.poi.hssf.record.FormulaRecord;
+import org.apache.easyexcel.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.ss.usermodel.CellType;
 
 /**
  * Record handler

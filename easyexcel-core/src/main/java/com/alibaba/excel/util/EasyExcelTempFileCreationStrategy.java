@@ -26,8 +26,8 @@ import java.nio.file.attribute.FileAttribute;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import org.apache.poi.util.DefaultTempFileCreationStrategy;
-import org.apache.poi.util.TempFileCreationStrategy;
+import org.apache.easyexcel.poi.util.DefaultTempFileCreationStrategy;
+import org.apache.easyexcel.poi.util.TempFileCreationStrategy;
 
 import static org.apache.poi.util.TempFile.JAVA_IO_TMPDIR;
 

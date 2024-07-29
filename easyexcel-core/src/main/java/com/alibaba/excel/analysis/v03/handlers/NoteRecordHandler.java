@@ -1,7 +1,7 @@
 package com.alibaba.excel.analysis.v03.handlers;
 
-import org.apache.poi.hssf.record.NoteRecord;
-import org.apache.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.hssf.record.NoteRecord;
+import org.apache.easyexcel.poi.hssf.record.Record;
 
 import com.alibaba.excel.analysis.v03.IgnorableXlsRecordHandler;
 import com.alibaba.excel.context.xls.XlsReadContext;

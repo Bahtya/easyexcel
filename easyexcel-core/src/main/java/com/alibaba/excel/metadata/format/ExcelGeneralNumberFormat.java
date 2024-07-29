@@ -10,7 +10,7 @@ import java.text.Format;
 import java.text.ParsePosition;
 import java.util.Locale;
 
-import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.easyexcel.poi.ss.usermodel.DataFormatter;
 
 /**
  * Written with reference to {@link org.apache.poi.ss.usermodel.ExcelGeneralNumberFormat }.

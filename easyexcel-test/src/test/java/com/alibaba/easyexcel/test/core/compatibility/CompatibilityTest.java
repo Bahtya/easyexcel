@@ -15,7 +15,7 @@ import com.alibaba.excel.util.FileUtils;
 import com.alibaba.fastjson2.JSON;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.util.TempFile;
+import org.apache.easyexcel.poi.util.TempFile;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,6 @@
 package com.alibaba.excel.cache;
 
-import org.apache.poi.hssf.record.SSTRecord;
+import org.apache.easyexcel.poi.hssf.record.SSTRecord;
 
 import com.alibaba.excel.context.AnalysisContext;
 

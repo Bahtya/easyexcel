@@ -3,8 +3,8 @@ package com.alibaba.excel.metadata.data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.poi.ss.usermodel.ClientAnchor;
-import org.apache.poi.util.Internal;
+import org.apache.easyexcel.poi.ss.usermodel.ClientAnchor;
+import org.apache.easyexcel.poi.util.Internal;
 
 /**
  * A client anchor is attached to an excel worksheet.  It anchors against

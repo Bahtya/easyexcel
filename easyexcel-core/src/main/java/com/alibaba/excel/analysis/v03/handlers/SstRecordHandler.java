@@ -1,7 +1,7 @@
 package com.alibaba.excel.analysis.v03.handlers;
 
-import org.apache.poi.hssf.record.Record;
-import org.apache.poi.hssf.record.SSTRecord;
+import org.apache.easyexcel.poi.hssf.record.Record;
+import org.apache.easyexcel.poi.hssf.record.SSTRecord;
 
 import com.alibaba.excel.analysis.v03.IgnorableXlsRecordHandler;
 import com.alibaba.excel.cache.XlsCache;

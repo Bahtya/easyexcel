@@ -17,11 +17,11 @@ import com.alibaba.excel.write.handler.context.WorkbookWriteHandlerContext;
 import com.alibaba.excel.write.metadata.WriteSheet;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.streaming.SXSSFWorkbook;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.Row;
+import org.apache.easyexcel.poi.ss.usermodel.Sheet;
+import org.apache.easyexcel.poi.ss.usermodel.Workbook;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFWorkbook;
 import org.junit.jupiter.api.Test;
 
 /**

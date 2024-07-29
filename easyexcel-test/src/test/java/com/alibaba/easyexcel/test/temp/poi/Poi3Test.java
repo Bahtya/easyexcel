@@ -6,14 +6,14 @@ import java.io.OutputStream;
 
 import com.alibaba.easyexcel.test.util.TestFileUtil;
 
-import org.apache.poi.hssf.record.crypto.Biff8EncryptionKey;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.openxml4j.opc.OPCPackage;
-import org.apache.poi.openxml4j.opc.PackageAccess;
-import org.apache.poi.poifs.crypt.EncryptionInfo;
-import org.apache.poi.poifs.crypt.EncryptionMode;
-import org.apache.poi.poifs.crypt.Encryptor;
-import org.apache.poi.poifs.filesystem.POIFSFileSystem;
+import org.apache.easyexcel.poi.hssf.record.crypto.Biff8EncryptionKey;
+import org.apache.easyexcel.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.easyexcel.poi.openxml4j.opc.OPCPackage;
+import org.apache.easyexcel.poi.openxml4j.opc.PackageAccess;
+import org.apache.easyexcel.poi.poifs.crypt.EncryptionInfo;
+import org.apache.easyexcel.poi.poifs.crypt.EncryptionMode;
+import org.apache.easyexcel.poi.poifs.crypt.Encryptor;
+import org.apache.easyexcel.poi.poifs.filesystem.POIFSFileSystem;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

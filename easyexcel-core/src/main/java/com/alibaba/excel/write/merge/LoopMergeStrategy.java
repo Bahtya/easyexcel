@@ -4,7 +4,7 @@ import com.alibaba.excel.metadata.property.LoopMergeProperty;
 import com.alibaba.excel.write.handler.RowWriteHandler;
 import com.alibaba.excel.write.handler.context.RowWriteHandlerContext;
 
-import org.apache.poi.ss.util.CellRangeAddress;
+import org.apache.easyexcel.poi.ss.util.CellRangeAddress;
 
 /**
  * The regions of the loop merge

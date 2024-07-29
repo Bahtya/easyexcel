@@ -2,12 +2,12 @@ package com.alibaba.excel.util;
 
 import com.alibaba.excel.exception.ExcelRuntimeException;
 
-import org.apache.poi.hssf.record.RowRecord;
-import org.apache.poi.hssf.usermodel.HSSFRow;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.util.BitField;
-import org.apache.poi.util.BitFieldFactory;
-import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.easyexcel.poi.hssf.record.RowRecord;
+import org.apache.easyexcel.poi.hssf.usermodel.HSSFRow;
+import org.apache.easyexcel.poi.ss.usermodel.Row;
+import org.apache.easyexcel.poi.util.BitField;
+import org.apache.easyexcel.poi.util.BitFieldFactory;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFRow;
 
 import java.lang.reflect.Field;
 

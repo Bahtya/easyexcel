@@ -8,7 +8,7 @@ import com.alibaba.excel.constant.BuiltinFormats;
 import com.alibaba.excel.util.ListUtils;
 import com.alibaba.excel.util.MapUtils;
 
-import org.apache.poi.ss.usermodel.DataFormat;
+import org.apache.easyexcel.poi.ss.usermodel.DataFormat;
 
 /**
  * format data

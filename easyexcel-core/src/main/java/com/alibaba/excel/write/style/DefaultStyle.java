@@ -4,11 +4,11 @@ import com.alibaba.excel.constant.OrderConstant;
 import com.alibaba.excel.write.metadata.style.WriteCellStyle;
 import com.alibaba.excel.write.metadata.style.WriteFont;
 
-import org.apache.poi.ss.usermodel.BorderStyle;
-import org.apache.poi.ss.usermodel.FillPatternType;
-import org.apache.poi.ss.usermodel.HorizontalAlignment;
-import org.apache.poi.ss.usermodel.IndexedColors;
-import org.apache.poi.ss.usermodel.VerticalAlignment;
+import org.apache.easyexcel.poi.ss.usermodel.BorderStyle;
+import org.apache.easyexcel.poi.ss.usermodel.FillPatternType;
+import org.apache.easyexcel.poi.ss.usermodel.HorizontalAlignment;
+import org.apache.easyexcel.poi.ss.usermodel.IndexedColors;
+import org.apache.easyexcel.poi.ss.usermodel.VerticalAlignment;
 
 /**
  * The default styles

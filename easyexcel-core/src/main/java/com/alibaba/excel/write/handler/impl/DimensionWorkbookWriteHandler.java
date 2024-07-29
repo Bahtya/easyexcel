@@ -10,10 +10,10 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.MapUtils;
-import org.apache.poi.ss.util.CellReference;
-import org.apache.poi.xssf.streaming.SXSSFSheet;
-import org.apache.poi.xssf.streaming.SXSSFWorkbook;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.easyexcel.poi.ss.util.CellReference;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFSheet;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFWorkbook;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFSheet;
 import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTWorksheet;
 
 /**

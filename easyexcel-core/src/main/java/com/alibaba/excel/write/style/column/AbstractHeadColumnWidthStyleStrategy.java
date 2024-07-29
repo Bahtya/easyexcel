@@ -6,7 +6,7 @@ import com.alibaba.excel.metadata.Head;
 import com.alibaba.excel.metadata.data.WriteCellData;
 import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;
 
-import org.apache.poi.ss.usermodel.Cell;
+import org.apache.easyexcel.poi.ss.usermodel.Cell;
 
 /**
  * Returns the column width according to each column header

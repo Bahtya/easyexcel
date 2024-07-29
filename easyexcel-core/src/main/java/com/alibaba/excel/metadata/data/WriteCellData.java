@@ -14,7 +14,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.apache.poi.ss.usermodel.CellStyle;
+import org.apache.easyexcel.poi.ss.usermodel.CellStyle;
 
 /**
  * write cell data

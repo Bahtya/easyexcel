@@ -1,6 +1,6 @@
 package com.alibaba.excel.cache.selector;
 
-import org.apache.poi.openxml4j.opc.PackagePart;
+import org.apache.easyexcel.poi.openxml4j.opc.PackagePart;
 
 import com.alibaba.excel.cache.ReadCache;
 

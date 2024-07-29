@@ -9,7 +9,7 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 import com.alibaba.excel.write.metadata.style.WriteCellStyle;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.ss.usermodel.CellStyle;
+import org.apache.easyexcel.poi.ss.usermodel.CellStyle;
 
 /**
  * fill cell style.

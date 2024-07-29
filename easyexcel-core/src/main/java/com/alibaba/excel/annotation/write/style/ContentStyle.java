@@ -12,10 +12,10 @@ import com.alibaba.excel.enums.poi.FillPatternTypeEnum;
 import com.alibaba.excel.enums.poi.HorizontalAlignmentEnum;
 import com.alibaba.excel.enums.poi.VerticalAlignmentEnum;
 
-import org.apache.poi.ss.usermodel.BuiltinFormats;
-import org.apache.poi.ss.usermodel.FillPatternType;
-import org.apache.poi.ss.usermodel.IgnoredErrorType;
-import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.easyexcel.poi.ss.usermodel.BuiltinFormats;
+import org.apache.easyexcel.poi.ss.usermodel.FillPatternType;
+import org.apache.easyexcel.poi.ss.usermodel.IgnoredErrorType;
+import org.apache.easyexcel.poi.ss.usermodel.IndexedColors;
 
 /**
  * Custom content styles

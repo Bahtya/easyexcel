@@ -1,7 +1,7 @@
 package com.alibaba.excel.enums.poi;
 
 import lombok.Getter;
-import org.apache.poi.ss.usermodel.BorderStyle;
+import org.apache.easyexcel.poi.ss.usermodel.BorderStyle;
 
 /**
  * The enumeration value indicating the line style of a border in a cell,

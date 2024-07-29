@@ -1,7 +1,7 @@
 package com.alibaba.excel.enums.poi;
 
 import lombok.Getter;
-import org.apache.poi.ss.usermodel.VerticalAlignment;
+import org.apache.easyexcel.poi.ss.usermodel.VerticalAlignment;
 
 /**
  * This enumeration value indicates the type of vertical alignment for a cell, i.e.,

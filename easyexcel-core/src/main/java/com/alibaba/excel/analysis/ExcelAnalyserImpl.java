@@ -25,11 +25,11 @@ import com.alibaba.excel.util.FileUtils;
 import com.alibaba.excel.util.NumberDataFormatterUtils;
 import com.alibaba.excel.util.StringUtils;
 import org.apache.commons.collections4.CollectionUtils;
-import org.apache.poi.hssf.record.crypto.Biff8EncryptionKey;
-import org.apache.poi.poifs.crypt.Decryptor;
-import org.apache.poi.poifs.filesystem.DocumentFactoryHelper;
-import org.apache.poi.poifs.filesystem.POIFSFileSystem;
-import org.apache.poi.util.IOUtils;
+import org.apache.easyexcel.poi.hssf.record.crypto.Biff8EncryptionKey;
+import org.apache.easyexcel.poi.poifs.crypt.Decryptor;
+import org.apache.easyexcel.poi.poifs.filesystem.DocumentFactoryHelper;
+import org.apache.easyexcel.poi.poifs.filesystem.POIFSFileSystem;
+import org.apache.easyexcel.poi.util.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

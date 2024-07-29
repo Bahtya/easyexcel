@@ -11,7 +11,7 @@ import com.alibaba.excel.read.metadata.ReadWorkbook;
 import com.alibaba.excel.util.StringUtils;
 
 import lombok.Getter;
-import org.apache.poi.util.IOUtils;
+import org.apache.easyexcel.poi.util.IOUtils;
 
 /**
  * @author jipengfei

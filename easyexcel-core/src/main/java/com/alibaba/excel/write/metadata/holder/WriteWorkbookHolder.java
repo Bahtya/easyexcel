@@ -30,14 +30,14 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString.Exclude;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.hssf.usermodel.HSSFCellStyle;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.Font;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.streaming.SXSSFWorkbook;
-import org.apache.poi.xssf.usermodel.XSSFCellStyle;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.easyexcel.poi.hssf.usermodel.HSSFCellStyle;
+import org.apache.easyexcel.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.easyexcel.poi.ss.usermodel.CellStyle;
+import org.apache.easyexcel.poi.ss.usermodel.Font;
+import org.apache.easyexcel.poi.ss.usermodel.Workbook;
+import org.apache.easyexcel.poi.xssf.streaming.SXSSFWorkbook;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFCellStyle;
+import org.apache.easyexcel.poi.xssf.usermodel.XSSFWorkbook;
 
 /**
  * Workbook holder

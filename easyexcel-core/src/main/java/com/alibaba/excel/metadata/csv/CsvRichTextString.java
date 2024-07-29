@@ -1,7 +1,7 @@
 package com.alibaba.excel.metadata.csv;
 
-import org.apache.poi.ss.usermodel.Font;
-import org.apache.poi.ss.usermodel.RichTextString;
+import org.apache.easyexcel.poi.ss.usermodel.Font;
+import org.apache.easyexcel.poi.ss.usermodel.RichTextString;
 
 /**
  * rich text string
