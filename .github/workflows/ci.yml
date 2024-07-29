@@ -54,7 +54,7 @@ jobs:
       - name: Maven Package
         run: ./mvnw package -B -V
       - name: List target directory
-        run: ls -la target
+        run: ls -la 
       - name: Maven Build
         run: ./mvnw install -B -V
       - name: Java Doc
